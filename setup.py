@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             '3dobject_publish = object_communication.object_publisher:main',
-            '3dobject_subscribe = object_communication.subscriber_member_function:main',
+            '3dobject_subscribe = object_communication.object_subscriber:main',
         ],
     },
 )
